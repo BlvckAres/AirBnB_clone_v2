@@ -34,7 +34,6 @@ def parse(line, args):
 
     return argv
 
-
 def err_manager(line, argc):
     ''' manages errors while parsing '''
     if not line:
